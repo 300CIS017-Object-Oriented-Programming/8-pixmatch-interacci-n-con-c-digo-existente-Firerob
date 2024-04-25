@@ -45,3 +45,16 @@ Detalla en este markdown lo siguiente:
 - **Métodos Importantes:** Enumera los métodos principales para cada clase. Incluye una descripción de cuál sería la utilidad de cada método
 - **Imagen del UML del diagrama de clases**  Adjunta una imagen del UML del diagrama de clases como una forma visual de planificar y entender la estructura de las clases, métodos, atributos y relaciones que podría tener una versión mejorada del código fuente.
 - **Organización de archivos:** Propon una estructura de organización de los archivos de este proyecto para que no queden todos en la raiz principal. Investiga cuáles podrían ser buenas formas de organizar los directorios y a partir de tu investigación indica qué directorios crearías y cómo los organizarías. 
+
+#  Mejoras
+
+- **Clases para Abstracción:**
+Crear clases como Player, Scoreboard y GameBoard para representar jugadores, puntajes y la lógica del tablero, respectivamente.
+- **Encapsulación y Responsabilidades Claras:**
+Cada clase debe tener una responsabilidad clara y única, como manejar jugadores, puntajes o la lógica del juego.
+- **Coordinación del Juego:**
+Utilizar una clase Game para coordinar el flujo del juego, interactuar con el usuario y controlar su progreso.
+- **Mejora de la Calidad:**
+Utilizar nombres descriptivos y comentarios para mejorar la legibilidad.
+Dividir el código en módulos para facilitar el mantenimiento.
+Implementar pruebas unitarias y manejo de errores para garantizar la fiabilidad del programa.
